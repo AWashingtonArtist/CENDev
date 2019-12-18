@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+/** Custom Stylesheet By Andrew W.**/
+/****colors
+#531848 - Dark Purple
+#722664 - Mid Purple
+#9e6594 - Light Purple
+#b6add0 - Lighter Purple
+
+#48173a - Dark Pink
+#722365 - Mid Pink
+#925487 - Light Pink
+***********/
+/************** Fonts ********************/
+@font-face {
+	font-family: 'Eye Catching';
+	src: url('fonts/hinted-EyeCatching.eot');
+	src: local('☺'), url('fonts/hinted-EyeCatching.woff') format('woff'), url('fonts/hinted-EyeCatching.ttf') format('truetype'), url('fonts/hinted-EyeCatching.svg#webfontg8dbVmxj') format('svg');
+}
+@font-face {
+	font-family: 'American Typewriter';
+	src: url('fonts/AmericanTypewriter.eot');
+	src: local('☺'), url('fonts/AmericanTypewriter.woff') format('woff'), url('fonts/AmericanTypewriter.ttf') format('truetype'), url('fonts/AmericanTypewriter.svg#webfontg8dbVmxj') format('svg');
+}
+
+/************************************/
+body *{
+	font-size: 16px;
+	line-height: 1.125em;
+	font-family: Tahoma, Arial, sans-serif;
+}
+div{
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	-ms-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 900;
+	margin-bottom: 1em !important;
+}
+h1 {
+	font-size: 3.125em !important;
+	line-height: 3.75em !important;
+}
+h2 {
+	font-size: 1.875em !important;
+	line-height: 2.125em !important;
+}
+h3 {
+	text-transform: capitalize !important;
+	font-size: 1.625em;
+	line-height: 1.875em;
+}
+p {
+	font-size: 1em;
+	line-height: 1.125em;
+}
+ul {
+	list-style-position: outside !important;
+}
+ul li {
+	font-size: 1em;
+	line-height: 1.125em;
+}
+ul li ul li {
+	font-size: 0.75em;
+	line-height: 0.875em;
+}
+a:hover {
+	text-decoration: none !important;
+	font-weight: 800 !important;
+}
